@@ -27,7 +27,7 @@ public class Door : InteractiveObject
         if(!isOpen)
         {
             base.InteractWith();
-            animator.SetBool("shouldOpenIn", true);
+            animator.SetBool("shouldOpen", true);
             displayText = string.Empty;
             isOpen = true;
         }
