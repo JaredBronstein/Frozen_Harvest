@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 9040809646969319755}
   - component: {fileID: 9040809646969319752}
   - component: {fileID: 9040809646969319753}
-  - component: {fileID: 9040809646969319750}
   - component: {fileID: 4865192735340029092}
+  - component: {fileID: 1703464748485196375}
   m_Layer: 0
   m_Name: InteractiveObject
   m_TagString: Untagged
@@ -310,19 +310,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 0}
---- !u!114 &9040809646969319750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9040809646969319751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b843d5934c66e524a95cc06f95b8eb3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: InteractiveObject
 --- !u!82 &4865192735340029092
 AudioSource:
   m_ObjectHideFlags: 0
@@ -419,3 +406,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1703464748485196375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9040809646969319751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b843d5934c66e524a95cc06f95b8eb3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayText: InteractiveObject
