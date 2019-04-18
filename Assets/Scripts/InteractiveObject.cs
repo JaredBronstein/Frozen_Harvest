@@ -6,11 +6,12 @@ using UnityEngine;
 
 public class InteractiveObject : MonoBehaviour, IInteractive
 {
+    [Tooltip("Text that will display in the UI when the player looks at this object in the world")]
     [SerializeField]
     protected string displayText = nameof(InteractiveObject);
 
-    public string DisplayText => displayText;
-    private AudioSource audioSource;
+    public virtual string DisplayText => displayText;
+    protected AudioSource audioSource;
 
     protected virtual void Awake()
     {

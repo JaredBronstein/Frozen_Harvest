@@ -1725,3 +1725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayText: Door
+  isLocked: 0
+  lockedDisplayText: Locked
+  lockedAudioClip: {fileID: 8300000, guid: 1b16c7ba81d7aa545b189fdaf880e41f, type: 3}
+  openAudioClip: {fileID: 8300000, guid: 3c87599ef41c5e244a0385005d99b1a5, type: 3}
