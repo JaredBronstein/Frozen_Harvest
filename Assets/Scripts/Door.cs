@@ -40,7 +40,7 @@ public class Door : InteractiveObject
             return toReturn;
         }
     }
-
+    public bool IsOpen => isOpen;
     private bool HasKey => PlayerInventory.InventoryObjects.Contains(key);
     private Animator animator;
     private bool isOpen = false;

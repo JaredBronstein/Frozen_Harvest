@@ -1261,9 +1261,7 @@ GameObject:
   - component: {fileID: 5396975043066856318}
   - component: {fileID: 606550580747775920}
   - component: {fileID: 8828964287130409440}
-  - component: {fileID: 1911049599193808691}
   - component: {fileID: 8075692647495816150}
-  - component: {fileID: 2362021477123921352}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -1534,25 +1532,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 0}
---- !u!95 &1911049599193808691
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2458888956095417729}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 835065397333c3f4d8b18ca3e9ac4fa4, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!82 &8075692647495816150
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1649,21 +1628,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2362021477123921352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2458888956095417729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30a3d131215fd2c4b9522499a2efaba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: Flux Capacitor Spot
-  key: {fileID: 0}
-  consumesKey: 1
-  lockedDisplayText: Requires a flux capacitor
-  lockedAudioClip: {fileID: 0}
-  openAudioClip: {fileID: 0}
