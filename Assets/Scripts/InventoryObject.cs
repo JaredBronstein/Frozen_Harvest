@@ -23,11 +23,13 @@ public class InventoryObject : InteractiveObject
 
     private new Renderer renderer;
     private new Collider collider;
+    private new BoxCollider boxCollider;
 
     private void Start()
     {
         renderer = GetComponent<Renderer>();
         collider = GetComponent<Collider>();
+        boxCollider = GetComponent<BoxCollider>();
     }
 
     public InventoryObject()
@@ -49,5 +51,6 @@ public class InventoryObject : InteractiveObject
         InventoryMenu.Instance.AddItemToMenu(this);
         renderer.enabled = false;
         collider.enabled = false;
+        boxCollider.enabled = false;
     }
 }
