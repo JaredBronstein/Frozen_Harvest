@@ -91,7 +91,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 0f82824fdc3fb4548ba9634fb0252d8d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -890,7 +890,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: bbb235fff4f48426b863b36058ab66d2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1598,12 +1598,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a3d131215fd2c4b9522499a2efaba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayText: Quergon Container
+  displayText: Thermodifier Container
   key: {fileID: 0}
   consumesKey: 1
-  lockedDisplayText: Requires a Quergon
+  lockedDisplayText: Requires a Thermodifier
   lockedAudioClip: {fileID: 0}
-  openAudioClip: {fileID: 0}
+  openAudioClip: {fileID: 8300000, guid: 6931d19683ef61c448484a8f4db081a2, type: 3}
 --- !u!82 &6471919057607093176
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1614,8 +1614,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 6931d19683ef61c448484a8f4db081a2, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

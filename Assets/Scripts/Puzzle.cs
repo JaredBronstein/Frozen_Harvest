@@ -58,7 +58,7 @@ public class Puzzle : InteractiveObject
         base.InteractWith();
         if(CheckIfAllDoorsAreOpen() && CheckIfAllLeversAreCorrect())
         {
-            SceneManager.LoadScene(gameSceneName);
+            Application.Quit();
         }
     }
 }
