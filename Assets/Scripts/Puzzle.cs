@@ -56,9 +56,9 @@ public class Puzzle : InteractiveObject
     public override void InteractWith()
     {
         base.InteractWith();
-        //if(CheckIfAllDoorsAreOpen() && CheckIfAllLeversAreCorrect())
-        //{
-            SceneManager.LoadScene(gameSceneName);
-        //}
+        if(CheckIfAllDoorsAreOpen() && CheckIfAllLeversAreCorrect())
+        {
+            Application.Quit();
+        }
     }
 }
